@@ -8,7 +8,18 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+           
+
+           int valor = Convert.ToInt32(Console.ReadLine());
+
+           if(valor % 2 == 0) 
+           {
+               Console.WriteLine("{0} é Par",valor);
+
+           }
+           else Console.WriteLine("{0} é ímpar", valor);
+
+           Console.WriteLine("Hello, World!");
         }
     }
     
